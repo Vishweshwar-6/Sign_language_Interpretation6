@@ -51,29 +51,32 @@
     The trained LSTM model is used to predict ASL gestures from video input. The system dynamically interprets the input and translates it into text on the screen.
 
 ## Project Architecture
-  
+    ![Alt Text](https://github.com/Vishweshwar-6/Sign_language_Interpretation6/blob/main/Sign%20language%20block%20diagram.png)
 
 ## Tools and Technologies
-    - **Python**: Core programming language used.
-    - **TensorFlow**: Deep learning library for building the LSTM model.
-    - **MediaPipe**: For feature extraction and keypoint detection from video input.
-    - **OpenCV**: For handling image and video processing tasks.
-    - **NumPy**: For handling arrays and matrices.
-    - **Matplotlib**: For visualizing data and model performance.
+  - **Python**: Core programming language used.
+  - **TensorFlow**: Deep learning library for building the LSTM model.
+  - **MediaPipe**: For feature extraction and keypoint detection from video input.
+  - **OpenCV**: For handling image and video processing tasks.
+  - **NumPy**: For handling arrays and matrices.
+  - **Matplotlib**: For visualizing data and model performance.
     
 ## Results
   The system performs well with most signs being translated as expected. Some key observations:
 
   Correct Translations: Most ASL signs are translated accurately into English text.
 
-  IMAGE
+  ![Alt Text](https://github.com/Vishweshwar-6/Sign_language_Interpretation6/blob/main/Results/Thanks-resu.png)
   
-  Incorrect Translations: Occasional errors occur when signs are visually similar (e.g., "B" being interpreted as "4").
+  Incorrect Translations: Occasional errors occur when signs are visually similar (e.g., "N" being interpreted as "A").
+
+  ![Alt Text](https://github.com/Vishweshwar-6/Sign_language_Interpretation6/blob/main/Results/N%20but%20given%20A.png)
 
 ## Model Performance:
   Training Accuracy: 95.4%
   Training Epochs: 500
   Adam Optimizer: Used to minimize loss functions.
+  
 ## Challenges and Future Work
   ### Challenges Faced:
     Data Quality: Low-quality videos can affect the model's accuracy.
