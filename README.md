@@ -54,12 +54,12 @@
   
 
 ## Tools and Technologies
-    **Python**: Core programming language used.
-    **TensorFlow**: Deep learning library for building the LSTM model.
-    **MediaPipe**: For feature extraction and keypoint detection from video input.
-    **OpenCV**: For handling image and video processing tasks.
-    **NumPy**: For handling arrays and matrices.
-    **Matplotlib**: For visualizing data and model performance.
+    - **Python**: Core programming language used.
+    - **TensorFlow**: Deep learning library for building the LSTM model.
+    - **MediaPipe**: For feature extraction and keypoint detection from video input.
+    - **OpenCV**: For handling image and video processing tasks.
+    - **NumPy**: For handling arrays and matrices.
+    - **Matplotlib**: For visualizing data and model performance.
     
 ## Results
   The system performs well with most signs being translated as expected. Some key observations:
