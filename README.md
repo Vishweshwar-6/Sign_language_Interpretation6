@@ -51,7 +51,7 @@
     The trained LSTM model is used to predict ASL gestures from video input. The system dynamically interprets the input and translates it into text on the screen.
 
 ## Project Architecture
-    ![Alt Text](https://github.com/Vishweshwar-6/Sign_language_Interpretation6/blob/main/Sign%20language%20block%20diagram.png)
+  ![Alt Text](https://github.com/Vishweshwar-6/Sign_language_Interpretation6/blob/main/Sign%20language%20block%20diagram.png)
 
 ## Tools and Technologies
   - **Python**: Core programming language used.
